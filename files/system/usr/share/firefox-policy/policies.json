@@ -1,0 +1,103 @@
+ 
+{
+  "policies": {
+            "ExtensionSettings": {
+              "*": {
+                "installation_mode": "allowed"
+              },
+              "uBlock0@raymondhill.net": {
+                "installation_mode": "force_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi"
+              }
+    },
+    "AIControls": {
+      "Default": {
+        "Value": "blocked"
+      },
+      "LinkPreviewKeyPoints": {
+        "Value": "blocked"
+      },
+      "PDFAltText": {
+        "Value": "blocked"
+      },
+      "SidebarChatbot": {
+        "Value": "blocked"
+      },
+      "SmartTabGroups": {
+        "Value": "blocked"
+      },
+      "SmartWindow": {
+        "Value": "blocked"
+      }
+    },
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "Cookies": {
+      "Behavior": "reject-foreign",
+      "BehaviorPrivateBrowsing": "reject-foreign"
+    },
+    "DisableAccounts": true,
+    "DisableBuiltinPDFViewer": true,
+    "DisableDeveloperTools": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxScreenshots": true,
+    "DisablePasswordReveal": true,
+    "DisableProfileImport": true,
+    "DisableSetDesktopBackground": true,
+    "DisplayBookmarksToolbar": "never",
+    "DisplayMenuBar": "default-off",
+    "FirefoxHome": {
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "SponsoredTopSites": false,
+      "TopSites": false,
+      "Weather": false
+    },
+    "FirefoxSuggest": {
+      "ImproveSuggest": false,
+      "SponsoredSuggestions": false,
+      "WebSuggestions": false
+    },
+    "Homepage": {
+      "StartPage": "homepage",
+      "URL": "https://kagi.com"
+    },
+    "SearchEngines": {
+      "Default": "Degoog",
+      "Add": [
+	      {
+		      "Name": "Degoog",
+		      "URLTemplate": "https://degoog.org/search?q={searchTerms}"
+	      }
+      ]
+    },
+    "IPProtectionAvailable": false,
+    "NewTabPage": false,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLogins": false,
+    "PasswordManagerEnabled": false,
+    "PopupBlocking": {
+      "Default": true
+    },
+    "PrivateBrowsingModeAvailability": 0,
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "FormData": true,
+      "Locked": false,
+      "Sessions": true
+    },
+    "SearchBar": "separate",
+    "SearchSuggestEnabled": false,
+    "ShowHomeButton": false,
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "FirefoxLabs": false,
+      "MoreFromMozilla": false,
+      "SkipOnboarding": true,
+      "UrlbarInterventions": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Deploy Enterprise Policies for Flatpak Firefox
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/mkdir -p /var/lib/flatpak/extension/org.mozilla.firefox.systemconfig/x86_64/stable/policies
+ExecStart=/usr/bin/cp -f /usr/share/firefox-policy/policies.json /var/lib/flatpak/extension/org.mozilla.firefox.systemconfig/x86_64/stable/policies/policies.json
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
