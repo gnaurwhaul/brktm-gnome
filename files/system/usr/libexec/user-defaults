@@ -31,3 +31,4 @@ chown -R "$user:$group" "$home/.config"
 
 mkdir -p "$(dirname "$marker")"
 touch "$marker"
+echo "$(date +%F): INSTALLED deafaults" > "$marker"
