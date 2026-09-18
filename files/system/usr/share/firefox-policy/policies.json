@@ -68,7 +68,8 @@
       "Add": [
 	      {
 		      "Name": "Degoog",
-		      "URLTemplate": "https://degoog.org/search?q={searchTerms}"
+		      "URLTemplate": "https://degoog.org/search?q={searchTerms}",
+		      "IconURL": "https://degoog.org/public/favicon/favicon.ico"
 	      }
       ]
     },
