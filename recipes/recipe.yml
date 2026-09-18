@@ -73,4 +73,12 @@ modules:
           - com.microsoft.Edge
           - io.github.dweymouth.supersonic
 
+  - type: fonts
+    fonts:
+      url-fonts:
+        - name: PlexMono
+          url: https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-mono%402.5.0/ibm-plex-mono.zip
+        - name: Iosevka
+          url: https://github.com/be5invis/Iosevka/releases/download/v34.8.1/PkgTTF-Iosevka-34.8.1.zip
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

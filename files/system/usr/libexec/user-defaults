@@ -22,9 +22,11 @@ echo "Copying user defaults to $home"
 
 mkdir -p "$home/.config"
 cp /usr/share/user-defaults/.bashrc "$home/.bashrc"
+cp -r /usr/share/user-defaults/.emacs.d "$home/"
 cp -r /usr/share/user-defaults/.config/. "$home/.config/"
 
 chown "$user:$group" "$home/.bashrc"
+chown -R "$user:$group" "$home/.emacs.d"
 chown -R "$user:$group" "$home/.config"
 
 mkdir -p "$(dirname "$marker")"
