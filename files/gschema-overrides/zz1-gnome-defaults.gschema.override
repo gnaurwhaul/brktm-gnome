@@ -1,0 +1,12 @@
+[org.gnome.desktop.wm.preferences]
+button-layout=':minimize,maximize,close'
+
+[org.gnome.desktop.input-sources]
+xkb-options=['ctrl:nocaps']
+
+[org.gnome.desktop.interface]
+color-scheme='prefer-dark'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/gnome/adwaita-l.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/adwaita-d.jxl'
