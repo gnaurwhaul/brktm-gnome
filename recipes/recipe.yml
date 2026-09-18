@@ -22,7 +22,8 @@ modules:
   - type: systemd
     system:
       enabled:
-        -  flatpak-firefox-policy.service
+        - flatpak-firefox-policy.service
+        - user-defaults.service
   - type: dnf
     repos:
       copr:

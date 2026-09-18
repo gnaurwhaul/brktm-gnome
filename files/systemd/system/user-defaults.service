@@ -1,0 +1,11 @@
+[Unit]
+Description=Install user defaults
+After=local-fs.target
+ConditionPathExits=!/var/lib/user-defaults-installed
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/user-defaults
+
+[Install]
+WantedBy=multi-user.target

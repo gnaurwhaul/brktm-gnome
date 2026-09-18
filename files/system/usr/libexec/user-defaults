@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+marker="/var/lib/user-defaults-installed"
+
+if [[ -e "$marker" ]]; then
+	exit 0
+fi
+
+
+home="$(getent passwd 1000 | cut -d: -f6)"
+user="$(getent passwd 1000 | cut -d: -f1)"
+group="$(getent passwd 1000 | cut -d: -f4)"
+
+if [ -z "$home" ]; then
+	echo "ERROR: UID 1000 does not exist"
+	exit 1
+fi
+
+echo "Copying user defaults to $home"
+
+mkdir -p "$home/.config"
+cp /usr/share/user-defaults/.bashrc "$home/.bashrc"
+cp -r /usr/share/user-defaults/.config/. "$home/.config/"
+
+chown "$user:$group" "$home/.bashrc"
+chown -R "$user:$group" "$home/.config"
+
+mkdir -p "$(dirname "$marker")"
+touch "$marker"
