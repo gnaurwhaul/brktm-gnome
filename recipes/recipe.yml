@@ -58,6 +58,7 @@ modules:
         - nvtop
         - htop
         - micro
+        - gnome-tour
 
   - type: default-flatpaks
     configurations:
@@ -69,6 +70,7 @@ modules:
           - org.gnome.Loupe
           - org.libreoffice.LibreOffice
           - org.localsend.localsend_app
+          - io.github.celluloid_player.Celluloid
 
       - scope: user # Also add Flathub user repo, but no user packages
         install:

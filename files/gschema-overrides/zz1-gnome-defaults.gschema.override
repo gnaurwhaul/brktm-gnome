@@ -1,6 +1,9 @@
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
 
+[org.gnome.shell.keybindings]
+toggle-overview=['<Control>space']
+
 [org.gnome.desktop.input-sources]
 xkb-options=['ctrl:nocaps']
 
@@ -10,3 +13,18 @@ color-scheme='prefer-dark'
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/gnome/adwaita-l.jxl'
 picture-uri-dark='file:///usr/share/backgrounds/gnome/adwaita-d.jxl'
+
+[org.gnome.desktop.app-folders]
+folder-children=['Development', 'Productivity', 'Multimedia', 'Utilities', 'Internet']
+
+[org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/Development/]
+name='Development'
+apps=['org.gnome.TextEditor.desktop', 'nvim.desktop', 'emacs.desktop']
+
+[org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/Productivity/]
+name='Productivity'
+apps=['net.thunderbird.Thunderbird.desktop', 'org.libreoffice.LibreOffice.desktop', 'org.pwmt.zathura.desktop']
+
+[org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/Multimedia/]
+name='Multimedia'
+apps=['io.freetubeapp.FreeTube.desktop', 'io.github.dweymouth.supersonic.desktop']
