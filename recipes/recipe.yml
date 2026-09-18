@@ -29,14 +29,30 @@ modules:
         - atim/starship
     install:
       packages:
-        - micro
         - starship
+        - neovim
+        - emacs
+        - btop
+        - pass
+        - netcat
+        - tcpdump
+        - distrobox
+        - zathura
+        - zathura-pdf-poppler
+        - picocom
+        - tailscale
+        - thunderbird
+        - gnome-text-editor
+    
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - nvtop
+        - htop
+        - micro
 
   - type: default-flatpaks
     configurations:
