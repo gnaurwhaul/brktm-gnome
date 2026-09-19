@@ -14,13 +14,3 @@ color-scheme='prefer-dark'
 picture-uri='file:///usr/share/backgrounds/gnome/adwaita-l.jxl'
 picture-uri-dark='file:///usr/share/backgrounds/gnome/adwaita-d.jxl'
 
-[org.gnome.desktop.app-folders]
-folder-children=['internet', 'utilities']
-
-[org.gnome.desktop.app-folders.utilities]
-name='Utilities'
-apps=['btop.desktop', 'org.localsend.localsend_app.desktop']
-
-[org.gnome.desktop.app-folders.internet]
-name='Internet'
-apps=['com.microsoft.Edge.desktop', 'org.mozilla.firefox']

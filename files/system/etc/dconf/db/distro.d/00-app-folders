@@ -1,0 +1,26 @@
+[org/gnome/desktop/app-folders]
+folder-children=['internet', 'utilities', 'productivity', 'multimedia', 'system', 'development']
+
+[org/gnome/desktop/app-folders/folders/utilities]
+name='Utilities'
+apps=['org.gnome.Ptyxis.desktop', 'org.pwmt.zathura.desktop', 'org.gnome.Loupe.desktop', 'btop.desktop', 'org.localsend.localsend_app.desktop']
+
+[org/gnome/desktop/app-folders/folders/internet]
+name='Internet'
+apps=['com.microsoft.Edge.desktop', 'org.mozilla.firefox.desktop']
+
+[org/gnome/desktop/app-folders/folders/productivity]
+name='Productivity'
+apps=['net.thunderbird.Thunderbird.desktop', 'org.libreoffice.LibreOffice.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.libreoffice.LibreOffice.calc.desktop', 'org.libreoffice.LibreOffice.impress.desktop', 'org.libreoffice.LibreOffice.draw.desktop', 'org.libreoffice.LibreOffice.base.desktop', 'org.libreoffice.LibreOffice.math.desktop', 'org.libreoffice.LibreOffice.desktop']
+
+[org/gnome/desktop/app-folders/folders/system]
+name='System'
+apps=['org.gnome.Settings.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Yelp.desktop', 'org.gnome.SystemMonitor.desktop', 'org.gnome.Software.desktop']
+
+[org/gnome/desktop/app-folders/folders/multimedia]
+name='Multimedia'
+apps=['io.freetubeapp.FreeTube.desktop', 'io.github.celluloid_player.Celluloid.desktop', 'io.github.dweymouth.supersonic.desktop']
+
+[org/gnome/desktop/app-folders/folders/development]
+name='Development'
+apps=['emacs.desktop', 'org.gnome.TextEditor.desktop', 'nvim.desktop']

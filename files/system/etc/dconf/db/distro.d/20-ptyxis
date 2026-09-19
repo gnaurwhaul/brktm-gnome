@@ -1,0 +1,4 @@
+[org/gnome/Ptyxis]
+font-name='IBM Plex Mono 14'
+use-system-font=false
+audible-bell=false
