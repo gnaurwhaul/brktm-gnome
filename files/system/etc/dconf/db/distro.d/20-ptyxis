@@ -1,4 +1,13 @@
+
 [org/gnome/Ptyxis]
-font-name='IBM Plex Mono 14'
-use-system-font=false
 audible-bell=false
+default-profile-uuid='0a24a286-7d25-4704-a5e5-8deb7a27d5c7'
+font-name='IBM Plex Mono 12'
+interface-style='system'
+profile-uuids=['0a24a286-7d25-4704-a5e5-8deb7a27d5c7']
+use-system-font=false
+
+[Profiles/0a24a286-7d25-4704-a5e5-8deb7a27d5c7]
+bold-is-bright=true
+label='Base'
+palette='gnome-high-contrast'

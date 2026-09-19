@@ -8,7 +8,8 @@ toggle-overview=['<Control>space']
 xkb-options=['ctrl:nocaps']
 
 [org.gnome.desktop.interface]
-color-scheme='prefer-dark'
+color-scheme='prefer-light'
+clock-format='24h'
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/gnome/adwaita-l.jxl'
