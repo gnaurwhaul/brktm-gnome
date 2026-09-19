@@ -1,7 +1,7 @@
 [Unit]
 Description=Install user defaults
 After=local-fs.target
-ConditionPathExits=!/var/lib/user-defaults-installed
+ConditionPathExists=!/var/lib/user-defaults-installed
 
 [Service]
 Type=oneshot

@@ -32,6 +32,7 @@ modules:
       enabled:
         - flatpak-firefox-policy.service
         - user-defaults.service
+        - bluebuild-dconf-reset.service
   - type: dnf
     repos:
       copr:

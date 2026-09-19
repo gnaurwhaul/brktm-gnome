@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+marker=/var/lib/bluebuild-reset-dconf
+
+if [ -e "$marker" ]; then
+  exit 0
+fi
+
+for home in /var/home/*; do
+  [ -d "$home" ] || continue
+  [ -f "$home/.config/dconf/user" ] || continue
+
+  rm -f "$home/.config/dconf/user"
+done
+
+mkdir -p "$(dirname "$marker")"
+touch "$marker"

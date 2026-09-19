@@ -1,0 +1,12 @@
+[Unit]
+Description=Reset inherited Silverblue dconf state
+After=local-fs.target
+Before=display-manager.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/bluebuild-reset-dconf
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
