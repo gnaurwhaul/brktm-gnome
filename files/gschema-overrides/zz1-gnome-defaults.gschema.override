@@ -14,3 +14,8 @@ color-scheme='prefer-light'
 picture-uri='file:///usr/share/backgrounds/gnome/adwaita-l.jxl'
 picture-uri-dark='file:///usr/share/backgrounds/gnome/adwaita-d.jxl'
 
+[org.gnome.shell.extensions.dash2dock-lite]
+border-radius=8
+edge-distance=0.8
+customize-topbar=true
+autohide-dash=true

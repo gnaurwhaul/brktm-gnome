@@ -33,6 +33,9 @@ modules:
         - flatpak-firefox-policy.service
         - user-defaults.service
         - bluebuild-dconf-reset.service
+  - type: gnome-extensions
+    install:
+      - 4994    # dash2dock Animated
   - type: dnf
     repos:
       copr:
