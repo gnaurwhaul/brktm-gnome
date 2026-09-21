@@ -1,0 +1,2 @@
+[org/gnome/shell]
+enabled-extensions=['dash2dock-lite@icedman.github.com']
