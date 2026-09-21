@@ -15,7 +15,7 @@ apps=['net.thunderbird.Thunderbird.desktop', 'org.libreoffice.LibreOffice.deskto
 
 [org/gnome/desktop/app-folders/folders/system]
 name='System'
-apps=['org.gnome.Settings.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Yelp.desktop', 'org.gnome.SystemMonitor.desktop', 'org.gnome.Software.desktop']
+apps=['com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Settings.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Yelp.desktop', 'org.gnome.SystemMonitor.desktop', 'org.gnome.Software.desktop']
 
 [org/gnome/desktop/app-folders/folders/multimedia]
 name='Multimedia'
