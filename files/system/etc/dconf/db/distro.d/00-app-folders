@@ -3,7 +3,7 @@ folder-children=['internet', 'utilities', 'productivity', 'multimedia', 'system'
 
 [org/gnome/desktop/app-folders/folders/utilities]
 name='Utilities'
-apps=['org.gnome.Ptyxis.desktop', 'org.pwmt.zathura.desktop', 'org.gnome.Loupe.desktop', 'btop.desktop', 'org.localsend.localsend_app.desktop']
+apps=['ch.protonmail.protonmail-bridge.desktop', 'org.gnome.Ptyxis.desktop', 'org.pwmt.zathura.desktop', 'org.gnome.Loupe.desktop','kitty.desktop', 'btop.desktop', 'org.localsend.localsend_app.desktop']
 
 [org/gnome/desktop/app-folders/folders/internet]
 name='Internet'

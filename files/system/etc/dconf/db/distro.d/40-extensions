@@ -1,2 +1,2 @@
 [org/gnome/shell]
-enabled-extensions=['dash2dock-lite@icedman.github.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'dash2dock-lite@icedman.github.com']

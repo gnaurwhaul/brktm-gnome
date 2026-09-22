@@ -15,6 +15,10 @@ modules:
   - type: os-release
     properties:
       PRETTY_NAME: "BRKTM-gnome 44"
+  
+  - type: script
+    scripts:
+      - install-mine.sh
 
   - type: bling
     install:
@@ -56,6 +60,7 @@ modules:
         - tailscale
         - thunderbird
         - gnome-text-editor
+        - kitty
     
     remove:
       packages:
@@ -88,6 +93,7 @@ modules:
           - org.gnucash.GnuCash
           - com.microsoft.Edge
           - io.github.dweymouth.supersonic
+          - ch.protonmail.protonmail-bridge
 
   - type: fonts
     fonts:
