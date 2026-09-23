@@ -51,7 +51,7 @@ modules:
         - emacs
         - btop
         - pass
-        - pass-import
+        - python3-pass-import
         - netcat
         - tcpdump
         - distrobox
