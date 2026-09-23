@@ -51,6 +51,7 @@ modules:
         - emacs
         - btop
         - pass
+        - pass-import
         - netcat
         - tcpdump
         - distrobox
