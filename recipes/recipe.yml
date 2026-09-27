@@ -54,6 +54,7 @@ modules:
         - python3-pass-import
         - netcat
         - tcpdump
+        - fossil
         - distrobox
         - zathura
         - zathura-pdf-poppler
