@@ -2,7 +2,8 @@
 [org/gnome/Ptyxis]
 audible-bell=false
 default-profile-uuid='0a24a286-7d25-4704-a5e5-8deb7a27d5c7'
-font-name='IBM Plex Mono 12'
+#font-name='IBM Plex Mono 12'
+font-name='Bitstream Vera Sans Mono 10'
 interface-style='system'
 profile-uuids=['0a24a286-7d25-4704-a5e5-8deb7a27d5c7']
 use-system-font=false
