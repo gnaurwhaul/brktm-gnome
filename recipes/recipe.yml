@@ -16,10 +16,6 @@ modules:
     properties:
       PRETTY_NAME: "BRKTM-gnome 44"
   
-  - type: script
-    scripts:
-      - install-mine.sh
-
   - type: bling
     install:
       - dconf-update-service
@@ -37,6 +33,7 @@ modules:
         - flatpak-firefox-policy.service
         - user-defaults.service
         - bluebuild-dconf-reset.service
+
   - type: gnome-extensions
     install:
       - 4994    # dash2dock Animated
@@ -63,6 +60,10 @@ modules:
         - thunderbird
         - gnome-text-editor
         - kitty
+        - vis
+        - tmux
+        - wireshark
+        - wireshark-cli
     
     remove:
       packages:
@@ -109,4 +110,10 @@ modules:
         - name: BitstreamVera
           url: https://download.gnome.org/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.zip 
 
+  - type: script
+    scripts:
+      - install-mine.sh
+      # fix-dumpcap.sh doesn't work. Might run too late in the process
+      #- fix-dumpcap.sh
+       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
