@@ -63,8 +63,6 @@ modules:
         - thunderbird
         - gnome-text-editor
         - kitty
-        - vis
-        - tmux
     
     remove:
       packages:
